@@ -79,4 +79,8 @@ what?`)
 
 	s1 = strings.Trim("...Hello Golphers?!!!!How are you????", "?.!")
 	fmt.Printf("%q\n", s1)
+
+	str = "Welcome to Linuxhint"
+	fmt.Println(str[0:3])
+
 }
